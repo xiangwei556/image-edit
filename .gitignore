@@ -1,0 +1,53 @@
+# Dependencies
+venv/
+node_modules/
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+tos_error.log
+
+# Databases
+image_edit.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp_*/
+*.tmp
+*.temp
+
+# Build outputs
+outputs/
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test files
+*.pyc
+__pycache__/
+
+# Uploads
+uploads/
+
+# Executable files
+*.msi
+*.exe
